@@ -132,6 +132,15 @@ display: none;
 .font-bold {
     font-weight: bold;
 }
+.page-title {
+    margin-top: 20px;
+}
+.page-title h2{
+    font-weight: bold;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+}
 
 /* FOR LAPTOP */
 @media (max-width: 1024px) {
@@ -668,6 +677,9 @@ display: none;
     }
     .right-sidebar-btn {
         display: block;
+    }
+    .page-title {
+        margin-top: 50px;
     }
     
 }

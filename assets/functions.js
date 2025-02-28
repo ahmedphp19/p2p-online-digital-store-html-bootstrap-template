@@ -40,7 +40,6 @@ $('.right-sidebar-btn').click(function() {
         'box-shadow': '0px 4px 6px rgba(0, 0, 0, 0.1)'  // Adding a subtle shadow
     });
     
-    
     // Set the initial state of the sidebar
     $(sidebar).css({
         'position': 'absolute',  // Ensure it's positioned correctly
@@ -66,6 +65,7 @@ $('.right-sidebar-close').click(function() {
         right: '-250px',         // Move it off-screen to the left
         width: '0'              // Shrink the width back to 0
     }, 500);
+    $('.right-sidebar').hide();
 
     // Hide the close button and show the hamburger button
     // $('.ham-btn').show();
