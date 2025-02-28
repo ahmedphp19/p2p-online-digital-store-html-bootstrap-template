@@ -6,6 +6,19 @@
     top: 0;
 }
 
+.ham-btn{
+display: none;
+}
+.ham-close{
+    display: none;
+}
+.right-sidebar-close {
+    display: none;
+}
+.right-sidebar-btn {
+    display: none;
+}
+
 .left-sidebar .card{
    height: 100%;
 } 
@@ -440,6 +453,223 @@
     .products .btn{
         font-size: 0.8rem !important;
     }
+}
+
+
+
+
+
+/* FOR MOBILES */
+@media (max-width: 426px) {
+    body{
+        font-size: 0.8rem !important;
+    }
+    .left-sidebar{
+        width: 15%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        font-size: 0.8rem !important;
+        display: none;
+    }
+    
+    .left-sidebar .card{
+       height: 100%;
+    } 
+
+    .left-sidebar .card .card-body{
+        padding: 5px;
+     } 
+    
+    .primary-color{
+        color: #040239;
+    }
+    
+    .bg-primary-color {
+        background-color: #040239;
+    }
+    
+    .bg-main{
+        background-color: #eee;
+    }
+    
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .nav-ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .nav-ul li a {
+        width: 100%;
+        text-decoration: none;
+    }
+    
+    .nav-ul li {
+        padding: 2px;
+    }
+    
+    .nav-button {
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: column; */
+        margin-bottom: 10px !important;
+        align-items: center;
+        padding: 5px;
+    }
+    .nav-button i {
+        flex: 2;
+        margin-right: 8px;
+        text-align: left;
+    }
+    .nav-button span {
+        flex: 8;
+        text-align: left !important;
+        font-size: 0.8rem !important;
+    }
+    
+    .btn-white {
+        background-color: #fff !important;
+    }
+    .account-links {
+        position: relative;
+        width: 100%;
+    }
+    .nav-item .btn-white {
+        color: #54595f;
+        font-weight: 600;
+    }
+    
+    .right-sidebar {
+        width: 20%;
+        position: fixed;
+        right: 10px;
+        top: 0;
+        bottom: 0;
+        padding-top: 20px;
+        padding-left: 0px;
+        display: none;
+    }
+    .group-chat-card {
+        min-height: 200px;
+        max-height: 200px;
+        overflow-y: scroll;
+    }
+    .group-chat-open-btn {
+        font-size: 0.8rem !important;
+        padding: 5px;
+    }
+    .search-bar {
+        display: flex;
+        background-color: #fff;
+        border-radius: 12px;
+        position: fixed;
+        z-index: 1000;
+    }
+    .search-bar input {
+       width: 98%;
+        border-radius: 12px;
+        padding-left: 22px;
+    }
+    .search-bar input:focus {
+        border: none;
+        outline: none;
+     }
+    
+    .body {
+        width: 100%;
+        position: relative;
+        margin-left: 0px;
+    }
+    
+    .card {
+        border-radius: 12px !important;
+    }
+    
+    .btn {
+        border-radius: 12px !important;
+    }
+    .featured-card {
+        background-image: url('images/bg-sky.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: auto !important;
+        height: auto !important;
+        border-radius: 12px;
+      
+    }
+    .featured-card-title {
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-bottom: 0px;
+    }
+    .featured-card a {
+        font-size: 0.8rem !important;
+    }
+    .font-bold {
+        font-weight: bold;
+    }
+    .nav-my-account-btn {
+        display: flex;
+        align-items: center;
+       
+    }
+    .nav-my-account-btn i {
+        flex: 1 !important;
+        margin-right: 7px !important;
+     
+    }
+    .nav-my-account-btn span {
+        flex: 10 !important;
+        
+    }
+    .products .btn{
+        font-size: 0.8rem !important;
+    }
+    .ham-btn{
+        display: block;
+    }
+    .ham-btn i {
+        font-size: 1.2rem !important;
+    }
+    .ham-close {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        background-color: transparent;
+    }
+    .ham-close i {
+        font-size: 1.5rem;
+    } 
+    .right-sidebar-btn {
+        
+    }
+    .right-sidebar-close {
+        border: none;
+        background-color: transparent;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+    }
+    .right-sidebar{
+        padding-top: 30px !important;
+    }
+    .right-sidebar-close i {
+        font-size: 1.5rem;
+    }
+    .right-sidebar-btn {
+        display: block;
+    }
+    
 }
 
 
