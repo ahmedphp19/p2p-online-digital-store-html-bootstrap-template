@@ -142,6 +142,26 @@ display: none;
     text-decoration: none;
 }
 
+
+.live-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #28a745; /* Green color */
+    animation: blink 1s infinite; /* Blinking animation */
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 /* FOR LAPTOP */
 @media (max-width: 1024px) {
     body{
